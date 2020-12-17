@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 700px;
+    background-color: #333;
+    margin: auto;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.container h3{
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #fff;
+    line-height: 2rem;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+    list-style: none;
+    color: rgba(255, 255, 255, .5);
+    font-weight: 700;
+    border-bottom: .25rem solid #ffffff;
+    padding-bottom: 5px;
+}
+
+.nav_link_1:hover {
+    color: white;
+    border-bottom-color: rgba(255, 255, 255, .5);
+}
+
+.nav_link_2:hover {
+    color: white;
+    border-bottom-color: rgba(255, 255, 255, .5);
+}
+
+.nav_link_3:hover {
+    color: white;
+    border-bottom-color: rgba(255, 255, 255, .5);
+}
+
+main {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.text {
+    color: white;
+}
+
+.page {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.footer {
+    text-align: center;
+    color: rgba(255, 255, 255, .5);
+    margin-top: 150px;
+}
+
+.footer a {
+    color: white;
+}
+
+.text_not {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.text_ft {
+    color: white;
+    margin-top: 200px;
+}
+
+.page_ft {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: white;
+}
+
+header_ft {
+    text-align: center;
+}
+
+.map {
+    width: 700px;
+    height: 550px;
+}
